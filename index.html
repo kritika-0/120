@@ -1,0 +1,256 @@
+<html>
+<head>
+  <title>Mobile Net vs Google Lens</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <!-- <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/ml5@0.7.0/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<center>
+  <h3 class="btn heading">Case Study: Moile Net vs Google Lens  </h3>
+    <center class="c">
+    <ol> 
+      <p class="span_p">
+    <span class="ti_span"> 
+      Test Image:
+      <br>
+      <img class="imag" src="box.jpg">
+
+    </span>
+
+    <span class="gl_span"> 
+      Google Lens: 
+      <br>
+      <label>
+      Google lens identified box with 100% Accuracy
+       </label>
+    </span>
+
+    <span class="mn_span"> 
+      Mobile Net:
+      <br>
+      <label>
+       Mobile net identified box with 80% accuracy
+       </label>
+    </span>
+    </p>
+      <br> 
+      <br>
+
+     <p class="span_p">
+    <span class="ti_span"> 
+      Test Image:
+      <br>
+      <img class="imag" src="pclip.jpg">
+
+    </span>
+
+    <span class="gl_span"> 
+      Google Lens: 
+      <br> <label> Google Lens: Google lens identified paper clip with 100% Accuracy
+      </label>
+    </span>
+
+    <span class="mn_span"> 
+      Mobile Net:
+      <br>
+      <label> Mobile net identified paper clip with 60% accuracy</label>
+    </span>
+    </p>
+    <br> 
+    <br> 
+    
+    <p class="span_p">
+      <span class="ti_span"> 
+        Test Image:
+        <br>
+        <img class="imag" src="gui.jpg">
+  
+      </span>
+  
+      <span class="gl_span"> 
+        Google Lens: 
+        <br><label>  Google Lens: Google lens identified guitar with 100% Accuracy
+        </label>
+      </span>
+  
+      <span class="mn_span"> 
+        Mobile Net:
+        <br>
+        <label>Mobile net identified guitar with 80% accuracy </label>
+      </span>
+      </p>
+      <br> 
+      <br> 
+
+   <p class="span_p">
+    <span class="ti_span"> 
+      Test Image:
+      <br>
+      <img class="imag" src="sung.jpg">
+    
+    </span>
+    
+    <span class="gl_span"> 
+      Google Lens: 
+      <br> <label>Google Lens: Google lens identified sunglasses with 100% Accuracy
+       </label>
+    </span>
+    
+  <span class="mn_span"> 
+     Mobile Net:
+     <br>
+    <label> Mobile net identified sunglasses with 70% accuracy</label>
+    </span>
+  </p>
+   <br> 
+  <br> 
+  <p class="span_p">
+    <span class="ti_span"> 
+    Test Image:
+    <br>
+    <img class="imag" src="headphone.jpg">
+      
+    </span>
+      
+    <span class="gl_span"> 
+    Google Lens: 
+    <br>  <label> Google Lens: Google lens identified headphones with 100% Accuracy
+    </label>
+    </span>
+      
+    <span class="mn_span"> 
+   Mobile Net:
+   <br>
+   <label> Mobile net identified sunglasses with 80% accuracy</label>
+  </span>
+  </p>
+  <br> 
+  <br>   
+  <p class="span_p">
+    <span class="ti_span"> 
+     Test Image:
+    <br>
+    <img class="imag" src="cup.jpg">
+        
+    </span>
+        
+    <span class="gl_span"> 
+    Google Lens: 
+    <br><label>  Google Lens: Google lens identified cup with 100% Accuracy
+    </label>
+    </span>
+        
+    <span class="mn_span"> 
+    Mobile Net:
+    <br>
+      <label>Mobile net identified cup with 80% accuracy </label>
+    </span>
+    </p>
+    <br> 
+    <br>  
+    <p class="span_p">
+  <span class="ti_span"> 
+  Test Image:
+  <br>
+  <img class="imag" src="cap.jpg">
+          
+  </span>
+          
+  <span class="gl_span"> 
+  Google Lens:  
+  <br> 
+  <label> 
+    Google Lens: Google lens identified cap with 100% Accuracy
+  </label>
+  </span>
+          
+  <span class="mn_span"> 
+  Mobile Net:
+  <br>
+   <label>Mobile net identified cap with 80% accuracy </label>
+   </span>
+    </p>
+    <br>     
+   <br> 
+                  
+    <p class="span_p">
+    <span class="ti_span"> 
+     Test Image:
+     <br>
+     <img class="imag" src="cam.jpg">
+            
+    </span>
+            
+    <span class="gl_span"> 
+    Google Lens: 
+    <br>
+    <label> Google Lens: Google lens identified camera with 100% Accuracy
+    </label>
+    </span>
+            
+    <span class="mn_span"> 
+    Mobile Net:
+    <br>
+    <label>Mobile net identified camera with 60% accuracy </label>
+   </span>
+   </p>
+    <br> 
+   <br>  
+   
+   
+     <p class="span_p">
+   <span class="ti_span"> 
+     Test Image:
+     <br>
+      <img class="imag" src="calc.jpg">
+              
+   </span>
+              
+   <span class="gl_span"> 
+    Google Lens: 
+    <br>
+    <label>Google Lens: Google lens identified calculator with 100% Accuracy
+    </label>
+   </span>
+              
+   <span class="mn_span"> 
+    Mobile Net:
+    <br>
+    <label> Mobile net identified calculator with 70% accuracy</label>
+     </span>
+     </p>
+      <br> 
+      <br>                  
+    </ol>
+    
+    </center>
+
+
+    <p>
+      <h3 class="conc">Conclusion:</h3>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </p>  
+
+ </center>  
+<div class="copy_right_footer">
+Developed by: Kritika
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
+

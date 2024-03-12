@@ -1,0 +1,87 @@
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    font-size: 23px;
+    background-color: burlywood;
+    height: 100px;
+    padding-top: 30px;
+  }
+  .copy_right_footer{
+    position: fixed;
+    color: antiquewhite;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    line-height: 3;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  canvas{
+    border: 5px solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 130px;
+  }
+
+  body{
+    background-color: bisque;
+  }
+
+  .gl_span{
+    background-color:moccasin;;
+    float: none;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .mn_span{
+    background-color:moccasin;
+    float:right;
+    font-size: 20px;
+    margin-right:30px ;
+    border-radius: 10px;
+  }
+
+  .ti_span
+  {
+    background-color:moccasin;
+    float:left;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+ 
+
+  .c{
+    margin-top: 40px;
+  }
+
+  .span_p{
+    background-color: darkslategrey;
+    padding: 20px;
+    margin-right: 40px;
+    border-radius: 20px;
+   height: 300px;
+  }
+
+  .imag{
+    padding: 5px;
+    margin:10px;
+    height: 200px;
+    width: 200px;
+    
+  }
+
+  .conc{
+    padding: 20px;
+    margin: 50px;
+    background-color:lightslategray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 200px;
+    color: aliceblue;
+    font-size: 30px;
+    border-radius: 20px;
+  }
